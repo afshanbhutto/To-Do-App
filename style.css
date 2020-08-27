@@ -1,0 +1,42 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(image/a.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 30px;
+}
+.container{
+    background-color: rgb(255, 222, 210);
+    border: 2px solid orangered;
+    align-items: center;
+
+}
+#todo_item{
+    border-radius: 5px;
+    border: 1px solid brown;
+}
+button{
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.btn{
+    background-color: rgb(190, 253, 71);
+    margin: 5px;
+    color: white;
+    align-content: flex-end
+}
+.text{
+    text-align:center;
+}
+#list{
+    list-style: none;
+}
